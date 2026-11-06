@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "d7263b670b73dcb0c416",
   "position": {
-    "x": 1288,
-    "y": 240,
-    "z": 53000,
-    "height": 160,
-    "width": 203,
-    "tabOrder": 53000
+    "x": 280,
+    "y": 108,
+    "z": 32000,
+    "height": 130,
+    "width": 256,
+    "tabOrder": 32000
   },
   "visual": {
     "visualType": "card",
@@ -118,7 +118,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Jogos no Estádio'"
+                  "Value": "'Jogos em que Eu Fui'"
                 }
               }
             },

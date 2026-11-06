@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "e8ada27f9dae86920851",
   "position": {
-    "x": 1288,
-    "y": 416,
-    "z": 30000,
-    "height": 160,
-    "width": 203,
-    "tabOrder": 30000
+    "x": 1096,
+    "y": 108,
+    "z": 35000,
+    "height": 130,
+    "width": 256,
+    "tabOrder": 35000
   },
   "visual": {
     "visualType": "card",
@@ -118,7 +118,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Aproveitamento'"
+                  "Value": "'Meu Aproveitamento'"
                 }
               }
             },

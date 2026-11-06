@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "a58c4a2e0a6635c0ee29",
   "position": {
-    "x": 1506,
-    "y": 240,
-    "z": 49000,
-    "height": 160,
-    "width": 187,
-    "tabOrder": 49000
+    "x": 552,
+    "y": 108,
+    "z": 33000,
+    "height": 130,
+    "width": 256,
+    "tabOrder": 33000
   },
   "visual": {
     "visualType": "card",
@@ -114,7 +114,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Gols do Flu'"
+                  "Value": "'Gols que Comemorei'"
                 }
               }
             },

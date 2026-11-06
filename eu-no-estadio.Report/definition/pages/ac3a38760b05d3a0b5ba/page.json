@@ -1,9 +1,9 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
   "name": "ac3a38760b05d3a0b5ba",
-  "displayName": "Página 1",
-  "displayOption": "FitToWidth",
-  "height": 4552,
+  "displayName": "Resumo",
+  "displayOption": "FitToPage",
+  "height": 1080,
   "width": 1920,
   "objects": {
     "displayArea": [
@@ -70,78 +70,13 @@
   },
   "visualInteractions": [
     {
-      "source": "ba4a276fd84d5d09b804",
-      "target": "8148f0e818a3e811dec0",
-      "type": "DataFilter"
-    },
-    {
-      "source": "ba4a276fd84d5d09b804",
-      "target": "d0d00b20c410280c4717",
-      "type": "HighlightFilter"
-    },
-    {
-      "source": "614d6fb1e54c21cb04ab",
-      "target": "016c6058d0551ce17d7d",
-      "type": "DataFilter"
-    },
-    {
       "source": "036ae05f045018350aec",
       "target": "5c328e8f181b1da885a8",
       "type": "DataFilter"
     },
     {
       "source": "036ae05f045018350aec",
-      "target": "ba4a276fd84d5d09b804",
-      "type": "DataFilter"
-    },
-    {
-      "source": "036ae05f045018350aec",
-      "target": "dff628a39e6590c20127",
-      "type": "DataFilter"
-    },
-    {
-      "source": "036ae05f045018350aec",
       "target": "f74af5e495b98ce8267b",
-      "type": "DataFilter"
-    },
-    {
-      "source": "036ae05f045018350aec",
-      "target": "8148f0e818a3e811dec0",
-      "type": "DataFilter"
-    },
-    {
-      "source": "036ae05f045018350aec",
-      "target": "43f7dea5ee8e0cb540cc",
-      "type": "DataFilter"
-    },
-    {
-      "source": "036ae05f045018350aec",
-      "target": "d5d707e3ab7b17ebc9b6",
-      "type": "DataFilter"
-    },
-    {
-      "source": "036ae05f045018350aec",
-      "target": "f98667f80797e3c860a8",
-      "type": "DataFilter"
-    },
-    {
-      "source": "036ae05f045018350aec",
-      "target": "2a90299901b300004a1c",
-      "type": "DataFilter"
-    },
-    {
-      "source": "036ae05f045018350aec",
-      "target": "90db7bc6dc040083e9d3",
-      "type": "DataFilter"
-    },
-    {
-      "source": "036ae05f045018350aec",
-      "target": "8b91b3741b20b3077197",
-      "type": "DataFilter"
-    },
-    {
-      "source": "036ae05f045018350aec",
-      "target": "016c6058d0551ce17d7d",
       "type": "DataFilter"
     }
   ]

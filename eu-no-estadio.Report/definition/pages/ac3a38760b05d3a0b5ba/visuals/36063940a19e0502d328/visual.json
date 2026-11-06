@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "36063940a19e0502d328",
   "position": {
-    "x": 1506,
-    "y": 416,
-    "z": 50000,
-    "height": 160,
-    "width": 187,
-    "tabOrder": 50000
+    "x": 1368,
+    "y": 108,
+    "z": 36000,
+    "height": 130,
+    "width": 256,
+    "tabOrder": 36000
   },
   "visual": {
     "visualType": "card",
@@ -127,7 +127,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Gols do Adversário'"
+                  "Value": "'Gols que Sofri'"
                 }
               }
             },

@@ -2,15 +2,15 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "f74af5e495b98ce8267b",
   "position": {
-    "x": 24,
-    "y": 992,
-    "z": 23000,
-    "height": 368,
-    "width": 952,
-    "tabOrder": 23000
+    "x": 280,
+    "y": 670,
+    "z": 40000,
+    "height": 394,
+    "width": 1616,
+    "tabOrder": 40000
   },
   "visual": {
-    "visualType": "lineStackedColumnComboChart",
+    "visualType": "lineClusteredColumnComboChart",
     "query": {
       "queryState": {
         "Category": {
@@ -169,6 +169,24 @@
                   "Value": "true"
                 }
               }
+            },
+            "labelPosition": {
+              "expr": {
+                "Literal": {
+                  "Value": "'OutsideEnd'"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#231C1F'"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -282,7 +300,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Jogos e Aproveitamento ao Longo do Tempo'"
+                  "Value": "'Minha Trajetória: Jogos e Aproveitamento ao Longo do Tempo'"
                 }
               }
             }
