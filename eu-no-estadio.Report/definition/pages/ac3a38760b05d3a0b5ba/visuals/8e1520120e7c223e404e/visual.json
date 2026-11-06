@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "8e1520120e7c223e404e",
   "position": {
-    "x": 496.00000000000006,
-    "y": 3552,
-    "z": 21000,
+    "x": 508,
+    "y": 4048,
+    "z": 43000,
     "height": 464.00000000000006,
-    "width": 480,
-    "tabOrder": 21000
+    "width": 468,
+    "tabOrder": 43000
   },
   "visual": {
     "visualType": "filledMap",
@@ -41,7 +41,7 @@
             "mapTheme": {
               "expr": {
                 "Literal": {
-                  "Value": "'canvasDark'"
+                  "Value": "'grayscale'"
                 }
               }
             }
@@ -94,6 +94,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'Localização dos Estados/Países dos Adversários'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "ba4a276fd84d5d09b804",
   "position": {
-    "x": 1008.0000000000001,
-    "y": 352,
-    "z": 2000,
+    "x": 1007,
+    "y": 656,
+    "z": 24000,
     "height": 320,
-    "width": 912,
-    "tabOrder": 2000
+    "width": 889,
+    "tabOrder": 24000
   },
   "visual": {
     "visualType": "lineStackedColumnComboChart",
@@ -173,9 +173,8 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 8,
-                      "Percent": 0
+                    "Literal": {
+                      "Value": "'#A9A4A0'"
                     }
                   }
                 }
@@ -215,9 +214,8 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 5,
-                      "Percent": 0
+                    "Literal": {
+                      "Value": "'#00613C'"
                     }
                   }
                 }
@@ -251,6 +249,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'Jogos por Local do Estádio'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

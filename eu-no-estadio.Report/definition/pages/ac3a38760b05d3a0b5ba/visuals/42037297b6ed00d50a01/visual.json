@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "42037297b6ed00d50a01",
   "position": {
-    "x": 1728,
-    "y": 0,
-    "z": 9000,
+    "x": 1709,
+    "y": 240,
+    "z": 31000,
     "height": 160,
-    "width": 192,
-    "tabOrder": 9000
+    "width": 187,
+    "tabOrder": 31000
   },
   "visual": {
     "visualType": "card",
@@ -64,6 +64,30 @@
             }
           }
         }
+      ],
+      "labels": [
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#7A0C2E'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "30D"
+                }
+              }
+            }
+          }
+        }
       ]
     },
     "visualContainerObjects": {
@@ -77,17 +101,10 @@
                 }
               }
             },
-            "heading": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Normal'"
-                }
-              }
-            },
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Média de Gols do Flu por Jogo'"
+                  "Value": "'Média de Gols do Flu'"
                 }
               }
             },
@@ -102,6 +119,19 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

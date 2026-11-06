@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "7eb5583b0cb290a09291",
   "position": {
-    "x": 1008,
-    "y": 2848,
-    "z": 22000,
+    "x": 1007,
+    "y": 3344,
+    "z": 44000,
     "height": 320,
-    "width": 912,
-    "tabOrder": 22000
+    "width": 889,
+    "tabOrder": 44000
   },
   "visual": {
     "visualType": "barChart",
@@ -79,6 +79,28 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Jogos por Adversário'"
                 }
               }
             }

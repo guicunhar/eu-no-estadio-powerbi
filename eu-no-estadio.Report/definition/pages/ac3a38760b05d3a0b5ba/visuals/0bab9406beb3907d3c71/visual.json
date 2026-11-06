@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "0bab9406beb3907d3c71",
   "position": {
-    "x": 0,
-    "y": 1813.0749780880503,
-    "z": 5000,
+    "x": 24,
+    "y": 2181.0749780880506,
+    "z": 27000,
     "height": 318.271544476995,
-    "width": 477.40731671549253,
-    "tabOrder": 5000
+    "width": 465,
+    "tabOrder": 27000
   },
   "visual": {
     "visualType": "columnChart",
@@ -105,9 +105,8 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 6,
-                      "Percent": -0.5
+                    "Literal": {
+                      "Value": "'#A9A4A0'"
                     }
                   }
                 }
@@ -147,9 +146,8 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 3,
-                      "Percent": 0
+                    "Literal": {
+                      "Value": "'#3A3436'"
                     }
                   }
                 }
@@ -190,7 +188,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#E1D600'"
+                      "Value": "'#C9A227'"
                     }
                   }
                 }
@@ -234,6 +232,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'Resultados de Mata-Mata'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

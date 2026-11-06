@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "990685ac76a3ac00be9a",
   "position": {
-    "x": 0,
-    "y": 2848,
-    "z": 7000,
+    "x": 24,
+    "y": 3344,
+    "z": 29000,
     "height": 320,
-    "width": 976,
-    "tabOrder": 7000
+    "width": 952,
+    "tabOrder": 29000
   },
   "visual": {
     "visualType": "barChart",
@@ -79,6 +79,28 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Jogos por Árbitro'"
                 }
               }
             }

@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "fa27593783087050dd8e",
   "position": {
-    "x": 0,
-    "y": 3552,
-    "z": 20000,
+    "x": 24,
+    "y": 4048,
+    "z": 42000,
     "height": 464.00000000000006,
-    "width": 480,
-    "tabOrder": 20000
+    "width": 468,
+    "tabOrder": 42000
   },
   "visual": {
     "visualType": "map",
@@ -59,7 +59,7 @@
             "mapTheme": {
               "expr": {
                 "Literal": {
-                  "Value": "'canvasDark'"
+                  "Value": "'grayscale'"
                 }
               }
             }
@@ -155,7 +155,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#FF0000'"
+                      "Value": "'#7A0C2E'"
                     }
                   }
                 }
@@ -173,6 +173,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'Localização das Cidades dos Adversários'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

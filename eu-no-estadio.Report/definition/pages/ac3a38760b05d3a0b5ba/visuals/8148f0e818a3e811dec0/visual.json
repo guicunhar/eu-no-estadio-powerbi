@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "8148f0e818a3e811dec0",
   "position": {
-    "x": 1008,
-    "y": 688,
-    "z": 13000,
+    "x": 1007,
+    "y": 992,
+    "z": 35000,
     "height": 368,
-    "width": 912,
-    "tabOrder": 13000
+    "width": 889,
+    "tabOrder": 35000
   },
   "visual": {
     "visualType": "barChart",
@@ -106,12 +106,34 @@
         }
       ]
     },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Partidas por Jogador'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
     "drillFilterOtherVisuals": true
   },
   "filterConfig": {
     "filters": [
       {
-        "name": "74abb870161ead5a03d2",
+        "name": "2c04b1b1ef0e320a7bba",
         "field": {
           "Column": {
             "Expression": {

@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "bb4658c39cba698b9037",
   "position": {
-    "x": 1728,
-    "y": 176,
-    "z": 10000,
+    "x": 1709,
+    "y": 416,
+    "z": 32000,
     "height": 160,
-    "width": 192,
-    "tabOrder": 10000
+    "width": 187,
+    "tabOrder": 32000
   },
   "visual": {
     "visualType": "card",
@@ -64,6 +64,30 @@
             }
           }
         }
+      ],
+      "labels": [
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#3A3436'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "30D"
+                }
+              }
+            }
+          }
+        }
       ]
     },
     "visualContainerObjects": {
@@ -80,14 +104,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Média de Gols do Adversário por Jogo'"
-                }
-              }
-            },
-            "heading": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Normal'"
+                  "Value": "'Média de Gols do Adversário'"
                 }
               }
             },
@@ -95,6 +112,19 @@
               "expr": {
                 "Literal": {
                   "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

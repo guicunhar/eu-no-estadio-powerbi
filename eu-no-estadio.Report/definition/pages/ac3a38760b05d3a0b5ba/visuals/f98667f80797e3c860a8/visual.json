@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "f98667f80797e3c860a8",
   "position": {
-    "x": 1008,
-    "y": 1088,
-    "z": 16000,
+    "x": 1007,
+    "y": 1392,
+    "z": 38000,
     "height": 336,
-    "width": 912,
-    "tabOrder": 16000
+    "width": 889,
+    "tabOrder": 38000
   },
   "visual": {
     "visualType": "barChart",
@@ -109,6 +109,13 @@
                   "Value": "'Partidas por Técnico'"
                 }
               }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
             }
           }
         }
@@ -119,7 +126,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "5dbc6dc49b9cb95aa4a8",
+        "name": "5644e3bb8aeede2154cf",
         "field": {
           "Column": {
             "Expression": {

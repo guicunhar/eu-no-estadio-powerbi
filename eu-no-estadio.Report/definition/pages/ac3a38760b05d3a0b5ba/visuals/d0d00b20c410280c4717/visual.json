@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "d0d00b20c410280c4717",
   "position": {
-    "x": 1008,
-    "y": 3552,
-    "z": 24000,
+    "x": 1007,
+    "y": 4048,
+    "z": 46000,
     "height": 464.00000000000006,
-    "width": 912,
-    "tabOrder": 24000
+    "width": 889,
+    "tabOrder": 46000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -79,6 +79,28 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Jogos por Cidade do Adversário'"
                 }
               }
             }

@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "90db7bc6dc040083e9d3",
   "position": {
-    "x": 1008,
-    "y": 1440,
-    "z": 15000,
+    "x": 1007,
+    "y": 1808,
+    "z": 37000,
     "height": 352,
-    "width": 912,
-    "tabOrder": 15000
+    "width": 889,
+    "tabOrder": 37000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -112,9 +112,8 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
+                    "Literal": {
+                      "Value": "'#7A0C2E'"
                     }
                   }
                 }
@@ -146,6 +145,28 @@
                 }
               }
             ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Artilheiros'"
+                }
+              }
+            }
           }
         }
       ]

@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "016c6058d0551ce17d7d",
   "position": {
-    "x": 1008,
-    "y": 2160,
-    "z": 17000,
+    "x": 1007,
+    "y": 2528,
+    "z": 39000,
     "height": 304,
-    "width": 912,
-    "tabOrder": 17000
+    "width": 889,
+    "tabOrder": 39000
   },
   "visual": {
     "visualType": "barChart",
@@ -131,9 +131,8 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0.4
+                    "Literal": {
+                      "Value": "'#00613C'"
                     }
                   }
                 }
@@ -173,9 +172,8 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
+                    "Literal": {
+                      "Value": "'#7A0C2E'"
                     }
                   }
                 }
@@ -232,6 +230,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'Participações por Jogador'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

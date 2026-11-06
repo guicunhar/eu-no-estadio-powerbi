@@ -1441,16 +1441,6 @@ cultureInfo pt-BR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
-			        },
-			        {
-			          "-": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
 			        }
 			      ]
 			    },
@@ -1502,7 +1492,7 @@ cultureInfo pt-BR
 			          }
 			        },
 			        {
-			          "Local do Estádio": {
+			          "Local": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -1512,7 +1502,7 @@ cultureInfo pt-BR
 			          }
 			        },
 			        {
-			          "Local": {
+			          "Local do Estádio": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",

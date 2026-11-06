@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "a57a87185900b0c74a04",
   "position": {
-    "x": 496.00000000000006,
-    "y": 1808,
-    "z": 6000,
+    "x": 508,
+    "y": 2176,
+    "z": 28000,
     "height": 320,
-    "width": 480,
-    "tabOrder": 6000
+    "width": 468,
+    "tabOrder": 28000
   },
   "visual": {
     "visualType": "pieChart",
@@ -98,9 +98,8 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 3,
-                      "Percent": 0
+                    "Literal": {
+                      "Value": "'#3A3436'"
                     }
                   }
                 }
@@ -140,9 +139,8 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
+                    "Literal": {
+                      "Value": "'#00613C'"
                     }
                   }
                 }
@@ -186,6 +184,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'Resultado de Disputa de Pênalti'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

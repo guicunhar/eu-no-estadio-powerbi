@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "2a90299901b300004a1c",
   "position": {
-    "x": 0,
-    "y": 1440,
-    "z": 14000,
+    "x": 24,
+    "y": 1808,
+    "z": 36000,
     "height": 352,
-    "width": 976,
-    "tabOrder": 14000
+    "width": 952,
+    "tabOrder": 36000
   },
   "visual": {
     "visualType": "clusteredColumnChart",
@@ -132,6 +132,28 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Gols por Tempo de Jogo'"
                 }
               }
             }

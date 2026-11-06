@@ -3,7 +3,7 @@
   "name": "ac3a38760b05d3a0b5ba",
   "displayName": "Página 1",
   "displayOption": "FitToWidth",
-  "height": 4050,
+  "height": 4552,
   "width": 1920,
   "objects": {
     "displayArea": [
@@ -22,21 +22,45 @@
     "background": [
       {
         "properties": {
-          "transparency": {
-            "expr": {
-              "Literal": {
-                "Value": "9D"
-              }
-            }
-          },
           "color": {
             "solid": {
               "color": {
                 "expr": {
                   "Literal": {
-                    "Value": "'#1A001E'"
+                    "Value": "'#F4F1EC'"
                   }
                 }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspace": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#E8E2DA'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
               }
             }
           }

@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "a5be36ddc407c350b8be",
   "position": {
-    "x": 0,
-    "y": 2160,
-    "z": 3000,
+    "x": 24,
+    "y": 2528,
+    "z": 25000,
     "height": 304,
-    "width": 976,
-    "tabOrder": 3000
+    "width": 952,
+    "tabOrder": 25000
   },
   "visual": {
     "visualType": "barChart",
@@ -92,6 +92,28 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Mata-mata por Fase'"
                 }
               }
             }

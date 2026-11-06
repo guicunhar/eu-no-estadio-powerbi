@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "036ae05f045018350aec",
   "position": {
-    "x": 0,
-    "y": 0,
-    "z": 25000,
+    "x": 24,
+    "y": 240,
+    "z": 47000,
     "height": 336,
-    "width": 976,
-    "tabOrder": 25000
+    "width": 952,
+    "tabOrder": 47000
   },
   "visual": {
     "visualType": "tableEx",
@@ -161,7 +161,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "44.93615557083012D"
+                  "Value": "55.68231980664095D"
                 }
               }
             }
@@ -219,31 +219,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "16D"
-                }
-              }
-            },
-            "fontColorPrimary": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "fontColorSecondary": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
+                  "Value": "13D"
                 }
               }
             }
@@ -265,24 +241,26 @@
       ],
       "columnHeaders": [
         {
-          "properties": {}
-        }
-      ]
-    },
-    "visualContainerObjects": {
-      "stylePreset": [
-        {
           "properties": {
-            "name": {
+            "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "'AlternatingRowsNew'"
+                  "Value": "12D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }
           }
         }
-      ],
+      ]
+    },
+    "visualContainerObjects": {
       "visualHeader": [
         {
           "properties": {
@@ -303,6 +281,26 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Meus Jogos no Estádio'"
                 }
               }
             }

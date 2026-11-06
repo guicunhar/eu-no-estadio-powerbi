@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "d5d707e3ab7b17ebc9b6",
   "position": {
-    "x": 496.00000000000006,
-    "y": 1088,
-    "z": 26000,
+    "x": 508,
+    "y": 1392,
+    "z": 48000,
     "height": 336,
-    "width": 480,
-    "tabOrder": 26000
+    "width": 468,
+    "tabOrder": 48000
   },
   "visual": {
     "visualType": "columnChart",
@@ -60,6 +60,28 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Jogos por Dia da Semana'"
                 }
               }
             }

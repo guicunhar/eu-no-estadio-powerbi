@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "dff628a39e6590c20127",
   "position": {
-    "x": 0,
-    "y": 352,
-    "z": 29000,
+    "x": 24,
+    "y": 656,
+    "z": 51000,
     "height": 320,
-    "width": 976,
-    "tabOrder": 29000
+    "width": 952,
+    "tabOrder": 51000
   },
   "visual": {
     "visualType": "lineStackedColumnComboChart",
@@ -114,6 +114,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'Jogos por Estádio'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

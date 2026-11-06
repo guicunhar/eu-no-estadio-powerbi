@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "43f7dea5ee8e0cb540cc",
   "position": {
-    "x": 0,
-    "y": 1085.3417275142469,
-    "z": 4000,
+    "x": 24,
+    "y": 1389.3417275142469,
+    "z": 26000,
     "height": 334.363925939315,
-    "width": 477.40731671549253,
-    "tabOrder": 4000
+    "width": 465,
+    "tabOrder": 26000
   },
   "visual": {
     "visualType": "barChart",
@@ -92,6 +92,28 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Jogos por Campeonato'"
                 }
               }
             }

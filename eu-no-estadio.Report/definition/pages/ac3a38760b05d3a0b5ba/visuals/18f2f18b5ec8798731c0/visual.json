@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "18f2f18b5ec8798731c0",
   "position": {
-    "x": 0,
-    "y": 3200,
-    "z": 12000,
+    "x": 24,
+    "y": 3696,
+    "z": 34000,
     "height": 320,
-    "width": 976,
-    "tabOrder": 12000
+    "width": 952,
+    "tabOrder": 34000
   },
   "visual": {
     "visualType": "clusteredColumnChart",
@@ -78,6 +78,28 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Placares Mais Frequentes'"
                 }
               }
             }
