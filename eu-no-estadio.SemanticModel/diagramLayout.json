@@ -1,0 +1,113 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 46.080303657191472
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1237.4150101016187,
+            "y": 0
+          },
+          "nodeIndex": "Adversários",
+          "nodeLineageTag": "2dc851a5-796a-476d-8de0-a20f8c3d76e9",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 336,
+            "y": 0
+          },
+          "nodeIndex": "Escalações",
+          "nodeLineageTag": "87e18708-e354-4883-8b45-9acba9ea046d",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 562.38523629994938,
+            "y": 539.08522665132523
+          },
+          "nodeIndex": "Gols",
+          "nodeLineageTag": "eb481e59-61f2-4e8f-8a8c-fd4e3dfb59ce",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 260.34858623128451,
+            "y": 356.67241839604503
+          },
+          "nodeIndex": "Jogadores",
+          "nodeLineageTag": "85fc15ae-ba9b-4f79-bcd7-e9fabab3cde0",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 1008.716564164873,
+            "y": 220.47041110959819
+          },
+          "nodeIndex": "Jogos",
+          "nodeLineageTag": "72137b9b-ca17-4b8f-abc0-e5d0b218d091",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 1400.1378008009372,
+            "y": 592.23803813441714
+          },
+          "nodeIndex": "Jogos-MataMata",
+          "nodeLineageTag": "abc365a0-a9f7-4a22-ac84-5235d22393b5",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 593.54928804882331,
+            "y": 955.94695661441028
+          },
+          "nodeIndex": "Participacoes",
+          "nodeLineageTag": "94e1359e-61e2-495c-b1e8-b0513299fbc1",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 50.346892102823141,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

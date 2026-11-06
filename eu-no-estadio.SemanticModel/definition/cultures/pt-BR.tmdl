@@ -1,0 +1,5396 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "adversário": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Adversários"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "adversário": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "adversário.adversario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Adversários",
+			          "ConceptualProperty": "adversario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "adversario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Adversário": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "adversário.id_adv": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Adversários",
+			          "ConceptualProperty": "id_adv"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id adv": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_adv": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification adv": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity adv": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier adv": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential adv": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "adversário.cidade_adv": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Adversários",
+			          "ConceptualProperty": "cidade_adv"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cidade adv": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cidade_adv": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Cidade do Adversário": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "adversário.local_adv": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Adversários",
+			          "ConceptualProperty": "local_adv"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "local adv": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "local_adv": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Local do Adversário": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "adversário.local_mapa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Adversários",
+			          "ConceptualProperty": "Local_Mapa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "local mapa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Local_Mapa": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "adversário.local": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Adversários",
+			          "ConceptualProperty": "Local"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "local": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "native": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "resident": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "home-grown": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "narrow": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "adversário.pais": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Adversários",
+			          "ConceptualProperty": "Pais"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pais": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "adversário.medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Adversários",
+			          "ConceptualProperty": "Medida"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "escalaçõe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Escalações"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "escalaçõe": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "escalaçõe.id_jogo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Escalações",
+			          "ConceptualProperty": "id_jogo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id jogo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_jogo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "nº": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "escalaçõe.id_jogador": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Escalações",
+			          "ConceptualProperty": "id_jogador"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id jogador": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_jogador": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification jogador": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity jogador": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier jogador": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential jogador": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "escalaçõe.jogador": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Escalações",
+			          "ConceptualProperty": "jogador"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jogador": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Técnico": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "escalaçõe.notum": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Escalações",
+			          "ConceptualProperty": "nota"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "notum": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "escalaçõe.partidas_jogadas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Escalações",
+			          "ConceptualProperty": "Partidas Jogadas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "partidas jogadas": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "gol": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Gols"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gol": {
+			            "State": "Generated",
+			            "Weight": 0.87
+			          }
+			        }
+			      ]
+			    },
+			    "gol.id_gol": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Gols",
+			          "ConceptualProperty": "id_gol"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id gol": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_gol": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification gol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity gol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier gol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential gol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "gol.id_jogo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Gols",
+			          "ConceptualProperty": "id_jogo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id jogo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_jogo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "gol.id_autor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Gols",
+			          "ConceptualProperty": "id_autor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id autor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_autor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification autor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity autor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier autor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential autor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "gol.autor_gol": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Gols",
+			          "ConceptualProperty": "autor_gol"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "autor gol": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "autor_gol": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Jogador": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "gol.id_ass": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Gols",
+			          "ConceptualProperty": "id_ass"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id ass": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_ass": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ass": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "identification ass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity ass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier ass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential ass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "gol.assistencia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Gols",
+			          "ConceptualProperty": "assistencia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "assistencia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Jogador": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "gol.tempo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Gols",
+			          "ConceptualProperty": "tempo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tempo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rhythm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "cadence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "beat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "speed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pulse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "measure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stroke": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Minuto": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "gol.total_gols": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Gols",
+			          "ConceptualProperty": "Total Gols"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total gols": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate gol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall gol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "gol.tempo_do_gol": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Gols",
+			          "ConceptualProperty": "Tempo do Gol"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tempo do gol": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "gol.gol": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Gols",
+			          "ConceptualProperty": "Gols"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gol": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "gol.assistência": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Gols",
+			          "ConceptualProperty": "Assistência"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "assistência": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogadore": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogadores"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jogadore": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogadore.jogador": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogadores",
+			          "ConceptualProperty": "jogador"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jogador": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogadore.id_jogador": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogadores",
+			          "ConceptualProperty": "id_jogador"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id jogador": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_jogador": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification jogador": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity jogador": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier jogador": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential jogador": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "jogadore.foto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogadores",
+			          "ConceptualProperty": "foto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "foto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jogo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.id_jogo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "id_jogo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id jogo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_jogo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Jogo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.gols_flu": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "gols_flu"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gols flu": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gol flu": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "gols_flu": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "gol influenza": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gol virus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gol infection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gol cold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "gol bug": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.gols_adv": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "gols_adv"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gols adv": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gol adv": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "gols_adv": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.adversario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "adversario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "adversario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Adversário": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.id_adv": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "id_adv"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id adv": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_adv": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification adv": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity adv": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier adv": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential adv": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.local_adv": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "local_adv"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "local adv": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "local_adv": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "-": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.estadio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "estadio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estadio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Estádio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.local_estadio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "local_estadio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "local estadio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "local_estadio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Local do Estádio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Local": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "jogo.data.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "VariationSource": "data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.data.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "VariationSource": "data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.data.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "VariationSource": "data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.data.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "VariationSource": "data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.data.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "VariationSource": "data",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.campeonato": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "campeonato"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "campeonato": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.arbitro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "arbitro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "arbitro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Árbitro": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.publico": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "publico"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "publico": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Público": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.resultado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Resultado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resultado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.resultado_exato": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Resultado Exato"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resultado exato": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Placar": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.total_de_jogos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Total de Jogos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total de jogos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate de jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall de jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.aproveitamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Aproveitamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "aproveitamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.média_de_gols_do_flu_por_jogo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Média de Gols do Flu por Jogo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "média de gols do flu por jogo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.média_de_gols_dos_adversários_por_jogo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Média de Gols dos Adversários por Jogo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "média de gols dos adversários por jogo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.placar": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Placar"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "placar": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogosMataMata": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos-MataMata"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jogos-MataMata": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "jogo-MataMata": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "jogos MataMata": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "jogo MataMata": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        }
+			      ]
+			    },
+			    "jogosMataMata.id_jogo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos-MataMata",
+			          "ConceptualProperty": "id_jogo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id jogo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_jogo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "jogosMataMata.fase": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos-MataMata",
+			          "ConceptualProperty": "fase"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fase": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Fase do Mata-Mata": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogosMataMata.tipo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos-MataMata",
+			          "ConceptualProperty": "tipo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogosMataMata.resultado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos-MataMata",
+			          "ConceptualProperty": "resultado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resultado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogosMataMata.tipo_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos-MataMata",
+			          "ConceptualProperty": "tipo_1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.dia_da_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Dia da Semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia da semana": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.data_formatada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Data Formatada"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data formatada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information formatada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact formatada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info formatada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic formatada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document formatada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure formatada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record formatada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Data": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.num_dia_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Num Dia Semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "num dia semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "number dia semana": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.total_por_estádio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Total por Estádio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total por estádio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate por estádio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall por estádio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "participacoe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Participacoes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "participacoe": {
+			            "State": "Generated",
+			            "Weight": 0.87
+			          }
+			        }
+			      ]
+			    },
+			    "participacoe.id_jogo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Participacoes",
+			          "ConceptualProperty": "id_jogo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id jogo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_jogo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "participacoe.id_jogador": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Participacoes",
+			          "ConceptualProperty": "id_jogador"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id jogador": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_jogador": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification jogador": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity jogador": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier jogador": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential jogador": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "participacoe.tipo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Participacoes",
+			          "ConceptualProperty": "tipo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "participacoe.id_gol": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Participacoes",
+			          "ConceptualProperty": "id_gol"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id gol": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_gol": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification gol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity gol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier gol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential gol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "participacoe.participacoe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Participacoes",
+			          "ConceptualProperty": "Participacoes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "participacoe": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Gols": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Assits.": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "jogo_data_mê_has_jogo_data_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo.data.mê": {
+			          "Target": {
+			            "Entity": "jogo.data.mê"
+			          }
+			        },
+			        "jogo.data.dia": {
+			          "Target": {
+			            "Entity": "jogo.data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.mê"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.dia"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "jogo.data.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "jogo.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "jogo_data_trimestre_has_jogo_data_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo.data.trimestre": {
+			          "Target": {
+			            "Entity": "jogo.data.trimestre"
+			          }
+			        },
+			        "jogo.data.mê": {
+			          "Target": {
+			            "Entity": "jogo.data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.mê"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "jogo.data.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "jogo.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "jogo_data_ano_has_jogo_data_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo.data.ano": {
+			          "Target": {
+			            "Entity": "jogo.data.ano"
+			          }
+			        },
+			        "jogo.data.trimestre": {
+			          "Target": {
+			            "Entity": "jogo.data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.ano"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "jogo.data.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "jogo.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "jogo_data_hierarquia_de_data_has_jogo_data_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "jogo.data.hierarquia_de_data"
+			          }
+			        },
+			        "jogo.data.dia": {
+			          "Target": {
+			            "Entity": "jogo.data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "jogo_data_hierarquia_de_data_has_jogo_data_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "jogo.data.hierarquia_de_data"
+			          }
+			        },
+			        "jogo.data.mê": {
+			          "Target": {
+			            "Entity": "jogo.data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "jogo_data_hierarquia_de_data_has_jogo_data_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "jogo.data.hierarquia_de_data"
+			          }
+			        },
+			        "jogo.data.trimestre": {
+			          "Target": {
+			            "Entity": "jogo.data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "jogo_data_hierarquia_de_data_has_jogo_data_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "jogo.data.hierarquia_de_data"
+			          }
+			        },
+			        "jogo.data.ano": {
+			          "Target": {
+			            "Entity": "jogo.data.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "jogo_data_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo.data": {
+			          "Target": {
+			            "Entity": "jogo.data"
+			          }
+			        },
+			        "jogo.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "jogo.data.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "participacoe_has_gol": {
+			      "Binding": {
+			        "ConceptualEntity": "Participacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "participacoe": {
+			          "Target": {
+			            "Entity": "participacoe"
+			          }
+			        },
+			        "gol": {
+			          "Target": {
+			            "Entity": "gol"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "participacoe"
+			            },
+			            "Object": {
+			              "Role": "gol"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "participacoes_have_gols"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gol"
+			            },
+			            "Object": {
+			              "Role": "participacoe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gols_have_participacoes"
+			        }
+			      ]
+			    },
+			    "participacoe_has_jogadore": {
+			      "Binding": {
+			        "ConceptualEntity": "Participacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "participacoe": {
+			          "Target": {
+			            "Entity": "participacoe"
+			          }
+			        },
+			        "jogadore": {
+			          "Target": {
+			            "Entity": "jogadore"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "participacoe"
+			            },
+			            "Object": {
+			              "Role": "jogadore"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "participacoes_have_jogadores"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogadore"
+			            },
+			            "Object": {
+			              "Role": "participacoe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogadores_have_participacoes"
+			        }
+			      ]
+			    },
+			    "participacoe_has_jogo": {
+			      "Binding": {
+			        "ConceptualEntity": "Participacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "participacoe": {
+			          "Target": {
+			            "Entity": "participacoe"
+			          }
+			        },
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "participacoe"
+			            },
+			            "Object": {
+			              "Role": "jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "participacoes_have_jogo"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "participacoe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_participacoes"
+			        }
+			      ]
+			    },
+			    "jogosMataMata_has_jogo": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos-MataMata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogosMataMata": {
+			          "Target": {
+			            "Entity": "jogosMataMata"
+			          }
+			        },
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogosMataMata"
+			            },
+			            "Object": {
+			              "Role": "jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogosMataMatas_have_jogo"
+			        }
+			      ]
+			    },
+			    "jogo_has_adversário": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "adversário": {
+			          "Target": {
+			            "Entity": "adversário"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "adversário"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_adversários"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "adversário"
+			            },
+			            "Object": {
+			              "Role": "jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "adversários_have_jogo"
+			        }
+			      ]
+			    },
+			    "jogo_has_jogosMataMata": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogosMataMata": {
+			          "Target": {
+			            "Entity": "jogosMataMata"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogosMataMata"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_jogosMataMatas"
+			        }
+			      ]
+			    },
+			    "escalaçõe_has_jogo": {
+			      "Binding": {
+			        "ConceptualEntity": "Escalações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "escalaçõe": {
+			          "Target": {
+			            "Entity": "escalaçõe"
+			          }
+			        },
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "escalaçõe"
+			            },
+			            "Object": {
+			              "Role": "jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "escalações_have_jogo"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "escalaçõe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_escalações"
+			        }
+			      ]
+			    },
+			    "participacoe_has_participacoe": {
+			      "Binding": {
+			        "ConceptualEntity": "Participacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "participacoe": {
+			          "Target": {
+			            "Entity": "participacoe"
+			          }
+			        },
+			        "participacoe.participacoe": {
+			          "Target": {
+			            "Entity": "participacoe.participacoe"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "participacoe"
+			            },
+			            "Object": {
+			              "Role": "participacoe.participacoe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "participacoes_have_participacoe"
+			        }
+			      ]
+			    },
+			    "participacoe_has_tipo": {
+			      "Binding": {
+			        "ConceptualEntity": "Participacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "participacoe": {
+			          "Target": {
+			            "Entity": "participacoe"
+			          }
+			        },
+			        "participacoe.tipo": {
+			          "Target": {
+			            "Entity": "participacoe.tipo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "participacoe"
+			            },
+			            "Object": {
+			              "Role": "participacoe.tipo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "participacoes_have_tipos"
+			        }
+			      ]
+			    },
+			    "jogo_has_total_por_estádio": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.total_por_estádio": {
+			          "Target": {
+			            "Entity": "jogo.total_por_estádio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.total_por_estádio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_total_por_estádio"
+			        }
+			      ]
+			    },
+			    "jogo_has_num_dia_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.num_dia_semana": {
+			          "Target": {
+			            "Entity": "jogo.num_dia_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.num_dia_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_num_dia_semanas"
+			        }
+			      ]
+			    },
+			    "jogo_has_data_formatada": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.data_formatada": {
+			          "Target": {
+			            "Entity": "jogo.data_formatada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.data_formatada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_data_formatadas"
+			        }
+			      ]
+			    },
+			    "jogo_has_dia_da_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.dia_da_semana": {
+			          "Target": {
+			            "Entity": "jogo.dia_da_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.dia_da_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_dia_da_semanas"
+			        }
+			      ]
+			    },
+			    "jogosMataMata_has_tipo_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos-MataMata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogosMataMata": {
+			          "Target": {
+			            "Entity": "jogosMataMata"
+			          }
+			        },
+			        "jogosMataMata.tipo_1": {
+			          "Target": {
+			            "Entity": "jogosMataMata.tipo_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogosMataMata"
+			            },
+			            "Object": {
+			              "Role": "jogosMataMata.tipo_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogosMataMatas_have_tipo_1"
+			        }
+			      ]
+			    },
+			    "jogosMataMata_has_resultado": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos-MataMata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogosMataMata": {
+			          "Target": {
+			            "Entity": "jogosMataMata"
+			          }
+			        },
+			        "jogosMataMata.resultado": {
+			          "Target": {
+			            "Entity": "jogosMataMata.resultado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogosMataMata"
+			            },
+			            "Object": {
+			              "Role": "jogosMataMata.resultado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogosMataMatas_have_resultados"
+			        }
+			      ]
+			    },
+			    "jogosMataMata_has_tipo": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos-MataMata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogosMataMata": {
+			          "Target": {
+			            "Entity": "jogosMataMata"
+			          }
+			        },
+			        "jogosMataMata.tipo": {
+			          "Target": {
+			            "Entity": "jogosMataMata.tipo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogosMataMata"
+			            },
+			            "Object": {
+			              "Role": "jogosMataMata.tipo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogosMataMatas_have_tipos"
+			        }
+			      ]
+			    },
+			    "jogosMataMata_has_fase": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos-MataMata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogosMataMata": {
+			          "Target": {
+			            "Entity": "jogosMataMata"
+			          }
+			        },
+			        "jogosMataMata.fase": {
+			          "Target": {
+			            "Entity": "jogosMataMata.fase"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogosMataMata"
+			            },
+			            "Object": {
+			              "Role": "jogosMataMata.fase"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogosMataMatas_have_fases"
+			        }
+			      ]
+			    },
+			    "jogosMataMata_has_id_jogo": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos-MataMata"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogosMataMata": {
+			          "Target": {
+			            "Entity": "jogosMataMata"
+			          }
+			        },
+			        "jogosMataMata.id_jogo": {
+			          "Target": {
+			            "Entity": "jogosMataMata.id_jogo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogosMataMata"
+			            },
+			            "Object": {
+			              "Role": "jogosMataMata.id_jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogosMataMatas_have_id_jogo"
+			        }
+			      ]
+			    },
+			    "jogo_has_placar": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.placar": {
+			          "Target": {
+			            "Entity": "jogo.placar"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.placar"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_placar"
+			        }
+			      ]
+			    },
+			    "jogo_has_média_de_gols_dos_adversários_por_jogo": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.média_de_gols_dos_adversários_por_jogo": {
+			          "Target": {
+			            "Entity": "jogo.média_de_gols_dos_adversários_por_jogo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.média_de_gols_dos_adversários_por_jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_média_de_gols_dos_adversários_por_jogo"
+			        }
+			      ]
+			    },
+			    "jogo_has_média_de_gols_do_flu_por_jogo": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.média_de_gols_do_flu_por_jogo": {
+			          "Target": {
+			            "Entity": "jogo.média_de_gols_do_flu_por_jogo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.média_de_gols_do_flu_por_jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_média_de_gols_do_flu_por_jogo"
+			        }
+			      ]
+			    },
+			    "jogo_has_aproveitamento": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.aproveitamento": {
+			          "Target": {
+			            "Entity": "jogo.aproveitamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.aproveitamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_aproveitamento"
+			        }
+			      ]
+			    },
+			    "jogo_has_total_de_jogos": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.total_de_jogos": {
+			          "Target": {
+			            "Entity": "jogo.total_de_jogos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.total_de_jogos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_total_de_jogos"
+			        }
+			      ]
+			    },
+			    "jogo_has_resultado_exato": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.resultado_exato": {
+			          "Target": {
+			            "Entity": "jogo.resultado_exato"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.resultado_exato"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_resultado_exatos"
+			        }
+			      ]
+			    },
+			    "jogo_has_resultado": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.resultado": {
+			          "Target": {
+			            "Entity": "jogo.resultado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.resultado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_resultados"
+			        }
+			      ]
+			    },
+			    "jogo_has_publico": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.publico": {
+			          "Target": {
+			            "Entity": "jogo.publico"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.publico"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_publicos"
+			        }
+			      ]
+			    },
+			    "jogo_has_arbitro": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.arbitro": {
+			          "Target": {
+			            "Entity": "jogo.arbitro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.arbitro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_arbitros"
+			        }
+			      ]
+			    },
+			    "jogo_has_campeonato": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.campeonato": {
+			          "Target": {
+			            "Entity": "jogo.campeonato"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.campeonato"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_campeonatos"
+			        }
+			      ]
+			    },
+			    "jogo_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.data": {
+			          "Target": {
+			            "Entity": "jogo.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_data"
+			        }
+			      ]
+			    },
+			    "jogo_has_local_estadio": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.local_estadio": {
+			          "Target": {
+			            "Entity": "jogo.local_estadio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.local_estadio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_local_estadios"
+			        }
+			      ]
+			    },
+			    "jogo_has_estadio": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.estadio": {
+			          "Target": {
+			            "Entity": "jogo.estadio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.estadio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_estadios"
+			        }
+			      ]
+			    },
+			    "jogo_has_local_adv": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.local_adv": {
+			          "Target": {
+			            "Entity": "jogo.local_adv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.local_adv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_local_advs"
+			        }
+			      ]
+			    },
+			    "jogo_has_id_adv": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.id_adv": {
+			          "Target": {
+			            "Entity": "jogo.id_adv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.id_adv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_id_advs"
+			        }
+			      ]
+			    },
+			    "jogo_has_gols_adv": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.gols_adv": {
+			          "Target": {
+			            "Entity": "jogo.gols_adv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.gols_adv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_gols_advs"
+			        }
+			      ]
+			    },
+			    "jogo_has_gols_flu": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.gols_flu": {
+			          "Target": {
+			            "Entity": "jogo.gols_flu"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.gols_flu"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_gols_flus"
+			        }
+			      ]
+			    },
+			    "jogo_has_id_jogo": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.id_jogo": {
+			          "Target": {
+			            "Entity": "jogo.id_jogo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.id_jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_id_jogo"
+			        }
+			      ]
+			    },
+			    "jogadore_has_foto": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogadores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogadore": {
+			          "Target": {
+			            "Entity": "jogadore"
+			          }
+			        },
+			        "jogadore.foto": {
+			          "Target": {
+			            "Entity": "jogadore.foto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogadore"
+			            },
+			            "Object": {
+			              "Role": "jogadore.foto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogadores_have_fotos"
+			        }
+			      ]
+			    },
+			    "jogadore_has_id_jogador": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogadores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogadore": {
+			          "Target": {
+			            "Entity": "jogadore"
+			          }
+			        },
+			        "jogadore.id_jogador": {
+			          "Target": {
+			            "Entity": "jogadore.id_jogador"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogadore"
+			            },
+			            "Object": {
+			              "Role": "jogadore.id_jogador"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogadores_have_id_jogadors"
+			        }
+			      ]
+			    },
+			    "jogadore_has_jogador": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogadores"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogadore": {
+			          "Target": {
+			            "Entity": "jogadore"
+			          }
+			        },
+			        "jogadore.jogador": {
+			          "Target": {
+			            "Entity": "jogadore.jogador"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogadore"
+			            },
+			            "Object": {
+			              "Role": "jogadore.jogador"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogadores_have_jogadors"
+			        }
+			      ]
+			    },
+			    "gol_has_assistência": {
+			      "Binding": {
+			        "ConceptualEntity": "Gols"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gol": {
+			          "Target": {
+			            "Entity": "gol"
+			          }
+			        },
+			        "gol.assistência": {
+			          "Target": {
+			            "Entity": "gol.assistência"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gol"
+			            },
+			            "Object": {
+			              "Role": "gol.assistência"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gols_have_assistência"
+			        }
+			      ]
+			    },
+			    "gol_has_gol": {
+			      "Binding": {
+			        "ConceptualEntity": "Gols"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gol": {
+			          "Target": {
+			            "Entity": "gol"
+			          }
+			        },
+			        "gol.gol": {
+			          "Target": {
+			            "Entity": "gol.gol"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gol"
+			            },
+			            "Object": {
+			              "Role": "gol.gol"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gols_have_gol"
+			        }
+			      ]
+			    },
+			    "gol_has_tempo_do_gol": {
+			      "Binding": {
+			        "ConceptualEntity": "Gols"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gol": {
+			          "Target": {
+			            "Entity": "gol"
+			          }
+			        },
+			        "gol.tempo_do_gol": {
+			          "Target": {
+			            "Entity": "gol.tempo_do_gol"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gol"
+			            },
+			            "Object": {
+			              "Role": "gol.tempo_do_gol"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gols_have_tempo_do_gol"
+			        }
+			      ]
+			    },
+			    "gol_has_total_gols": {
+			      "Binding": {
+			        "ConceptualEntity": "Gols"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gol": {
+			          "Target": {
+			            "Entity": "gol"
+			          }
+			        },
+			        "gol.total_gols": {
+			          "Target": {
+			            "Entity": "gol.total_gols"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gol"
+			            },
+			            "Object": {
+			              "Role": "gol.total_gols"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gols_have_total_gols"
+			        }
+			      ]
+			    },
+			    "gol_has_tempo": {
+			      "Binding": {
+			        "ConceptualEntity": "Gols"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gol": {
+			          "Target": {
+			            "Entity": "gol"
+			          }
+			        },
+			        "gol.tempo": {
+			          "Target": {
+			            "Entity": "gol.tempo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gol"
+			            },
+			            "Object": {
+			              "Role": "gol.tempo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gols_have_tempi"
+			        }
+			      ]
+			    },
+			    "gol_has_assistencia": {
+			      "Binding": {
+			        "ConceptualEntity": "Gols"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gol": {
+			          "Target": {
+			            "Entity": "gol"
+			          }
+			        },
+			        "gol.assistencia": {
+			          "Target": {
+			            "Entity": "gol.assistencia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gol"
+			            },
+			            "Object": {
+			              "Role": "gol.assistencia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gols_have_assistencias"
+			        }
+			      ]
+			    },
+			    "gol_has_id_ass": {
+			      "Binding": {
+			        "ConceptualEntity": "Gols"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gol": {
+			          "Target": {
+			            "Entity": "gol"
+			          }
+			        },
+			        "gol.id_ass": {
+			          "Target": {
+			            "Entity": "gol.id_ass"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gol"
+			            },
+			            "Object": {
+			              "Role": "gol.id_ass"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gols_have_id_asses"
+			        }
+			      ]
+			    },
+			    "gol_has_autor_gol": {
+			      "Binding": {
+			        "ConceptualEntity": "Gols"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gol": {
+			          "Target": {
+			            "Entity": "gol"
+			          }
+			        },
+			        "gol.autor_gol": {
+			          "Target": {
+			            "Entity": "gol.autor_gol"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gol"
+			            },
+			            "Object": {
+			              "Role": "gol.autor_gol"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gols_have_autor_gols"
+			        }
+			      ]
+			    },
+			    "gol_has_id_autor": {
+			      "Binding": {
+			        "ConceptualEntity": "Gols"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gol": {
+			          "Target": {
+			            "Entity": "gol"
+			          }
+			        },
+			        "gol.id_autor": {
+			          "Target": {
+			            "Entity": "gol.id_autor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gol"
+			            },
+			            "Object": {
+			              "Role": "gol.id_autor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gols_have_id_autors"
+			        }
+			      ]
+			    },
+			    "gol_has_id_jogo": {
+			      "Binding": {
+			        "ConceptualEntity": "Gols"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gol": {
+			          "Target": {
+			            "Entity": "gol"
+			          }
+			        },
+			        "gol.id_jogo": {
+			          "Target": {
+			            "Entity": "gol.id_jogo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gol"
+			            },
+			            "Object": {
+			              "Role": "gol.id_jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gols_have_id_jogo"
+			        }
+			      ]
+			    },
+			    "gol_has_id_gol": {
+			      "Binding": {
+			        "ConceptualEntity": "Gols"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "gol": {
+			          "Target": {
+			            "Entity": "gol"
+			          }
+			        },
+			        "gol.id_gol": {
+			          "Target": {
+			            "Entity": "gol.id_gol"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "gol"
+			            },
+			            "Object": {
+			              "Role": "gol.id_gol"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gols_have_id_gols"
+			        }
+			      ]
+			    },
+			    "escalaçõe_has_partidas_jogadas": {
+			      "Binding": {
+			        "ConceptualEntity": "Escalações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "escalaçõe": {
+			          "Target": {
+			            "Entity": "escalaçõe"
+			          }
+			        },
+			        "escalaçõe.partidas_jogadas": {
+			          "Target": {
+			            "Entity": "escalaçõe.partidas_jogadas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "escalaçõe"
+			            },
+			            "Object": {
+			              "Role": "escalaçõe.partidas_jogadas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "escalações_have_partidas_jogadas"
+			        }
+			      ]
+			    },
+			    "escalaçõe_has_notum": {
+			      "Binding": {
+			        "ConceptualEntity": "Escalações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "escalaçõe": {
+			          "Target": {
+			            "Entity": "escalaçõe"
+			          }
+			        },
+			        "escalaçõe.notum": {
+			          "Target": {
+			            "Entity": "escalaçõe.notum"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "escalaçõe"
+			            },
+			            "Object": {
+			              "Role": "escalaçõe.notum"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "escalações_have_nota"
+			        }
+			      ]
+			    },
+			    "escalaçõe_has_jogador": {
+			      "Binding": {
+			        "ConceptualEntity": "Escalações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "escalaçõe": {
+			          "Target": {
+			            "Entity": "escalaçõe"
+			          }
+			        },
+			        "escalaçõe.jogador": {
+			          "Target": {
+			            "Entity": "escalaçõe.jogador"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "escalaçõe"
+			            },
+			            "Object": {
+			              "Role": "escalaçõe.jogador"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "escalações_have_jogadors"
+			        }
+			      ]
+			    },
+			    "escalaçõe_has_id_jogador": {
+			      "Binding": {
+			        "ConceptualEntity": "Escalações"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "escalaçõe": {
+			          "Target": {
+			            "Entity": "escalaçõe"
+			          }
+			        },
+			        "escalaçõe.id_jogador": {
+			          "Target": {
+			            "Entity": "escalaçõe.id_jogador"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "escalaçõe"
+			            },
+			            "Object": {
+			              "Role": "escalaçõe.id_jogador"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "escalações_have_id_jogadors"
+			        }
+			      ]
+			    },
+			    "adversário_has_medida": {
+			      "Binding": {
+			        "ConceptualEntity": "Adversários"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "adversário": {
+			          "Target": {
+			            "Entity": "adversário"
+			          }
+			        },
+			        "adversário.medida": {
+			          "Target": {
+			            "Entity": "adversário.medida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "adversário"
+			            },
+			            "Object": {
+			              "Role": "adversário.medida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "adversários_have_medida"
+			        }
+			      ]
+			    },
+			    "adversário_has_pais": {
+			      "Binding": {
+			        "ConceptualEntity": "Adversários"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "adversário": {
+			          "Target": {
+			            "Entity": "adversário"
+			          }
+			        },
+			        "adversário.pais": {
+			          "Target": {
+			            "Entity": "adversário.pais"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "adversário"
+			            },
+			            "Object": {
+			              "Role": "adversário.pais"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "adversários_have_paises"
+			        }
+			      ]
+			    },
+			    "adversário_has_local": {
+			      "Binding": {
+			        "ConceptualEntity": "Adversários"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "adversário": {
+			          "Target": {
+			            "Entity": "adversário"
+			          }
+			        },
+			        "adversário.local": {
+			          "Target": {
+			            "Entity": "adversário.local"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "adversário"
+			            },
+			            "Object": {
+			              "Role": "adversário.local"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "adversários_have_locals"
+			        }
+			      ]
+			    },
+			    "adversário_has_local_mapa": {
+			      "Binding": {
+			        "ConceptualEntity": "Adversários"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "adversário": {
+			          "Target": {
+			            "Entity": "adversário"
+			          }
+			        },
+			        "adversário.local_mapa": {
+			          "Target": {
+			            "Entity": "adversário.local_mapa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "adversário"
+			            },
+			            "Object": {
+			              "Role": "adversário.local_mapa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "adversários_have_local_mapas"
+			        }
+			      ]
+			    },
+			    "adversário_has_local_adv": {
+			      "Binding": {
+			        "ConceptualEntity": "Adversários"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "adversário": {
+			          "Target": {
+			            "Entity": "adversário"
+			          }
+			        },
+			        "adversário.local_adv": {
+			          "Target": {
+			            "Entity": "adversário.local_adv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "adversário"
+			            },
+			            "Object": {
+			              "Role": "adversário.local_adv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "adversários_have_local_advs"
+			        }
+			      ]
+			    },
+			    "adversário_has_cidade_adv": {
+			      "Binding": {
+			        "ConceptualEntity": "Adversários"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "adversário": {
+			          "Target": {
+			            "Entity": "adversário"
+			          }
+			        },
+			        "adversário.cidade_adv": {
+			          "Target": {
+			            "Entity": "adversário.cidade_adv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "adversário"
+			            },
+			            "Object": {
+			              "Role": "adversário.cidade_adv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "adversários_have_cidade_advs"
+			        }
+			      ]
+			    },
+			    "adversário_has_id_adv": {
+			      "Binding": {
+			        "ConceptualEntity": "Adversários"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "adversário": {
+			          "Target": {
+			            "Entity": "adversário"
+			          }
+			        },
+			        "adversário.id_adv": {
+			          "Target": {
+			            "Entity": "adversário.id_adv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "adversário"
+			            },
+			            "Object": {
+			              "Role": "adversário.id_adv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "adversários_have_id_advs"
+			        }
+			      ]
+			    },
+			    "adversário_has_adversario": {
+			      "Binding": {
+			        "ConceptualEntity": "Adversários"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "adversário": {
+			          "Target": {
+			            "Entity": "adversário"
+			          }
+			        },
+			        "adversário.adversario": {
+			          "Target": {
+			            "Entity": "adversário.adversario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "adversário"
+			            },
+			            "Object": {
+			              "Role": "adversário.adversario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "adversários_have_adversarios"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

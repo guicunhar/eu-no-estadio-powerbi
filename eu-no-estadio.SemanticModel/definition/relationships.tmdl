@@ -1,0 +1,39 @@
+relationship 69e31fe5-ef05-d55f-94fd-b625901f15e7
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: Jogos-MataMata.id_jogo
+	toColumn: Jogos.id_jogo
+
+relationship d455002d-47cb-1eb1-4145-8f1d4f3ccfd1
+	isActive: false
+	fromColumn: Escalações.id_jogador
+	toColumn: Jogadores.id_jogador
+
+relationship 99c0f47b-16c3-f241-bcbf-33d1a51e49cb
+	crossFilteringBehavior: bothDirections
+	fromColumn: Jogos.adversario
+	toColumn: Adversários.adversario
+
+relationship af36d2b5-e9dd-431d-84db-86b2b262b25e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Jogos.data
+	toColumn: LocalDateTable_05245f97-3940-420f-8889-fda64d4fb6bd.Date
+
+relationship 7ef13c49-439b-6da6-d93f-943fce9294b2
+	crossFilteringBehavior: bothDirections
+	fromColumn: Escalações.id_jogo
+	toColumn: Jogos.id_jogo
+
+relationship 3784577b-d876-0753-2e4d-b8160d0dff95
+	crossFilteringBehavior: bothDirections
+	fromColumn: Participacoes.id_jogo
+	toColumn: Jogos.id_jogo
+
+relationship 29e8ced5-32b0-5589-ef09-d24a8e8fe1f2
+	fromColumn: Participacoes.id_jogador
+	toColumn: Jogadores.id_jogador
+
+relationship 3bfc177f-d5a7-8443-970f-830eabcdaa7f
+	fromColumn: Participacoes.id_gol
+	toColumn: Gols.id_gol
+

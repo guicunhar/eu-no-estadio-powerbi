@@ -1,0 +1,62 @@
+table Escalações
+	lineageTag: 87e18708-e354-4883-8b45-9acba9ea046d
+
+	measure 'Partidas Jogadas' =
+			
+			CALCULATE(
+				COUNTA('Escalações'[jogador]),
+				FILTER(
+					ALLSELECTED('Escalações'[id_jogador]),
+					ISONORAFTER('Escalações'[id_jogador], MAX('Escalações'[id_jogador]), DESC)
+				)
+			)
+		formatString: 0
+		lineageTag: 10f7dc08-d695-496f-ae56-ba328adc340a
+
+	column id_jogo
+		dataType: int64
+		formatString: 0
+		lineageTag: dde171cf-baba-4deb-a4dc-40f355d422af
+		summarizeBy: none
+		sourceColumn: id_jogo
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_jogador
+		dataType: int64
+		formatString: 0
+		lineageTag: e5153719-87d5-47cd-bc48-32ff31beb2d6
+		summarizeBy: sum
+		sourceColumn: id_jogador
+
+		annotation SummarizationSetBy = Automatic
+
+	column jogador
+		dataType: string
+		lineageTag: 6a5e40b1-28b2-4cf4-9a24-0f5cf961c952
+		summarizeBy: none
+		sourceColumn: jogador
+
+		annotation SummarizationSetBy = Automatic
+
+	column nota
+		dataType: string
+		lineageTag: eb4e1210-b4f7-4402-a879-2ae2788ab443
+		summarizeBy: none
+		sourceColumn: nota
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Escalações = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(Web.Contents("https://docs.google.com/spreadsheets/d/1qgf1kaFvj2xq7Lq8sWT8C-a_aUbKhLPuf25QtFDOHUc/export"), null, true),
+				    Escalações_Sheet = Fonte{[Item="Escalações",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Escalações_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"id_jogo", Int64.Type}, {"id_jogador", Int64.Type}, {"jogador", type text}, {"nota", type any}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_ResultType = Table
+

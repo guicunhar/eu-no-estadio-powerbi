@@ -1,0 +1,44 @@
+table Jogadores
+	lineageTag: 85fc15ae-ba9b-4f79-bcd7-e9fabab3cde0
+
+	column jogador
+		dataType: string
+		lineageTag: 44a8e7b8-ab49-4854-bfbb-671f4c9b7157
+		summarizeBy: none
+		sourceColumn: jogador
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_jogador
+		dataType: int64
+		formatString: 0
+		lineageTag: 777e3ece-4200-4b76-bbb1-21bee1fe3643
+		summarizeBy: none
+		sourceColumn: id_jogador
+
+		annotation SummarizationSetBy = Automatic
+
+	column foto
+		dataType: string
+		lineageTag: 852233de-8254-4f15-9e11-4215b46a087f
+		summarizeBy: none
+		sourceColumn: foto
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Jogadores = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(Web.Contents("https://docs.google.com/spreadsheets/d/1qgf1kaFvj2xq7Lq8sWT8C-a_aUbKhLPuf25QtFDOHUc/export"), null, true),
+				    Jogadores_Sheet = Fonte{[Item="Jogadores",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Jogadores_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"jogador", type text}, {"id_jogador", Int64.Type}, {"foto", type text}}),
+				    #"Linhas em Branco Removidas" = Table.SelectRows(#"Tipo Alterado", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {"", null})))
+				in
+				    #"Linhas em Branco Removidas"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

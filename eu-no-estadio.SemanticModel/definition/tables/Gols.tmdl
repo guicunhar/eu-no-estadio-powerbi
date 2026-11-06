@@ -1,0 +1,114 @@
+table Gols
+	lineageTag: eb481e59-61f2-4e8f-8a8c-fd4e3dfb59ce
+
+	measure 'Total Gols' =
+			
+			COUNT('Gols'[id_gol])
+		formatString: 0
+		lineageTag: 23116d27-ef4c-4a3c-ae95-2fa37a701c0b
+
+	measure 'Tempo do Gol' =
+			
+			COUNT('Gols'[tempo])
+		formatString: 0
+		lineageTag: 0b9c162e-8a3c-45d2-9b7d-a0ac8369df1b
+
+	measure Gols =
+			CALCULATE(
+				COUNTA('Gols'[autor_gol]),
+				FILTER(
+					ALLSELECTED('Jogos'[Data]),
+					ISONORAFTER('Jogos'[Data], MAX('Jogos'[Data]), DESC)
+				)
+			)
+		formatString: 0
+		lineageTag: 3b3f3790-b1b3-4ea3-8890-4f13e6eeb046
+
+	measure Assistência =
+			CALCULATE(
+				COUNTA('Gols'[assistencia]),
+				FILTER(
+					ALLSELECTED('Jogos'[Data]),
+					ISONORAFTER('Jogos'[Data], MAX('Jogos'[Data]), DESC)
+				)
+			)
+		formatString: 0
+		lineageTag: 2fc5e709-a030-4edc-ba52-808f1d59d887
+
+	column id_gol
+		dataType: int64
+		formatString: 0
+		lineageTag: 36d0bd7f-d9b6-4509-aed8-26547037313c
+		summarizeBy: none
+		sourceColumn: id_gol
+
+		annotation SummarizationSetBy = User
+
+	column id_jogo
+		dataType: int64
+		formatString: 0
+		lineageTag: 6e41de17-cf05-4607-ab94-c373dd095275
+		summarizeBy: none
+		sourceColumn: id_jogo
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_autor
+		dataType: int64
+		formatString: 0
+		lineageTag: c5cc7370-4c4b-4a64-a10c-d23d5a2ceaf9
+		summarizeBy: none
+		sourceColumn: id_autor
+
+		annotation SummarizationSetBy = Automatic
+
+	column autor_gol
+		dataType: string
+		lineageTag: 9d06c8fd-4301-4328-8cbe-7275c052bac6
+		summarizeBy: none
+		sourceColumn: autor_gol
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_ass
+		dataType: int64
+		formatString: 0
+		lineageTag: 0c7b6550-e867-4705-83d1-545295b82f08
+		summarizeBy: none
+		sourceColumn: id_ass
+
+		annotation SummarizationSetBy = Automatic
+
+	column assistencia
+		dataType: string
+		lineageTag: 77bc0ff0-c32c-40db-80c8-51187aeb0933
+		summarizeBy: none
+		sourceColumn: assistencia
+
+		annotation SummarizationSetBy = Automatic
+
+	column tempo
+		dataType: int64
+		formatString: 0
+		lineageTag: 110eef06-cee2-45fe-911d-0030b04ad91f
+		summarizeBy: none
+		sourceColumn: tempo
+
+		annotation SummarizationSetBy = User
+
+	partition Gols = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(Web.Contents("https://docs.google.com/spreadsheets/d/1qgf1kaFvj2xq7Lq8sWT8C-a_aUbKhLPuf25QtFDOHUc/export"), null, true),
+				    Gols_Sheet = Fonte{[Item="Gols",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Gols_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"id_gol", Int64.Type}, {"id_jogo", Int64.Type}, {"id_autor", Int64.Type}, {"autor_gol", type text}, {"id_ass", Int64.Type}, {"assistencia", type text}, {"tempo", Int64.Type}}),
+				    #"Linhas em Branco Removidas" = Table.SelectRows(#"Tipo Alterado", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {"", null})))
+				in
+				    #"Linhas em Branco Removidas"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

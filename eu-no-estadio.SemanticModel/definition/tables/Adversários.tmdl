@@ -1,0 +1,99 @@
+table Adversários
+	lineageTag: 2dc851a5-796a-476d-8de0-a20f8c3d76e9
+
+	measure Medida
+		lineageTag: 2b583f4a-12cd-4f1e-b50b-d5a33d9510fb
+
+		annotation 43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c = True
+
+	column adversario
+		dataType: string
+		lineageTag: 59130dc4-6ca1-4156-aec2-5031a82addd9
+		summarizeBy: none
+		sourceColumn: adversario
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_adv
+		dataType: int64
+		formatString: 0
+		lineageTag: f0d9b741-24eb-4204-bee2-d75c3ee4b79b
+		summarizeBy: none
+		sourceColumn: id_adv
+
+		annotation SummarizationSetBy = Automatic
+
+	column cidade_adv
+		dataType: string
+		lineageTag: eb0d3852-8a6d-4af2-8350-c17c40f6ba43
+		summarizeBy: none
+		sourceColumn: cidade_adv
+
+		annotation SummarizationSetBy = Automatic
+
+	column local_adv
+		dataType: string
+		lineageTag: 6e9203df-d74f-4f1c-bebe-41cb5393e313
+		summarizeBy: none
+		sourceColumn: local_adv
+
+		annotation SummarizationSetBy = Automatic
+
+	column Local_Mapa = ```
+			IF(
+			    LEN('Adversários'[local_adv]) = 2,
+			    'Adversários'[cidade_adv] & ", " & 'Adversários'[local_adv] & ", Brasil",
+			    'Adversários'[cidade_adv] & ", " & 'Adversários'[local_adv]
+			)
+			
+			```
+		lineageTag: 54381d0c-f36e-4742-a68d-67eb1d53fd9e
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Local = ```
+			
+			IF(
+			LEN(TRIM('Adversários'[local_adv])) = 3,
+			'Adversários'[local_adv],
+			'Adversários'[local_adv] & "-BRA"
+			)
+			
+			```
+		lineageTag: fd32597a-6c10-46ae-8ad8-6130fa3530ac
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Pais =
+			
+			IF(
+			    LEN(TRIM('Adversários'[local_adv])) = 2,
+			    "BRA",
+			    TRIM('Adversários'[local_adv])
+			)
+		lineageTag: c4a761db-8f28-4273-ae8f-9c33bf1fc771
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Adversários = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(Web.Contents("https://docs.google.com/spreadsheets/d/1qgf1kaFvj2xq7Lq8sWT8C-a_aUbKhLPuf25QtFDOHUc/export"), null, true),
+				    Adversários_Sheet = Fonte{[Item="Adversários",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Adversários_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"adversario", type text}, {"id_adv", Int64.Type}, {"cidade_adv", type text}, {"local_adv", type text}}),
+				    #"Linhas em Branco Removidas" = Table.SelectRows(#"Tipo Alterado", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {"", null}))),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Linhas em Branco Removidas","PAR","PRY",Replacer.ReplaceText,{"local_adv"}),
+				    #"Valor Substituído1" = Table.ReplaceValue(#"Valor Substituído","EQU","ECU",Replacer.ReplaceText,{"local_adv"}),
+				    #"Valor Substituído2" = Table.ReplaceValue(#"Valor Substituído1","CHI","CHL",Replacer.ReplaceText,{"local_adv"})
+				in
+				    #"Valor Substituído2"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

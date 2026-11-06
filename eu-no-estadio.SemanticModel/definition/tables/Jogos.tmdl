@@ -1,0 +1,238 @@
+table Jogos
+	lineageTag: 72137b9b-ca17-4b8f-abc0-e5d0b218d091
+
+	measure 'Total de Jogos' = DISTINCTCOUNT(Jogos[id_jogo])
+		formatString: 0
+		lineageTag: 353ad531-665e-435c-a2cf-6234f3d4c837
+
+	measure Aproveitamento = ```
+			
+			DIVIDE(
+			    CALCULATE(
+			        SUMX(
+			            Jogos,
+			            SWITCH(
+			                Jogos[Resultado],
+			                "V", 3,
+			                "E", 1,
+			                0
+			            )
+			        )
+			    ),
+			    3 * [Total de Jogos]
+			)
+			
+			```
+		lineageTag: 22348327-d849-4f6c-bcab-df2b766275f8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Média de Gols do Flu por Jogo' = SUM(Jogos[gols_flu])/[Total de Jogos]
+		lineageTag: f57ccf06-0ebf-4012-a5df-82820fa130ff
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Média de Gols dos Adversários por Jogo' = SUM(Jogos[gols_adv])/[Total de Jogos]
+		lineageTag: 170a0d8d-c6b7-4c85-89d5-fe5e445eac89
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Placar = ```
+			
+			COUNT(Jogos[Resultado Exato])
+			
+			```
+		formatString: 0
+		lineageTag: 6024401b-b33c-4ecb-bab6-492ac3ed1af4
+
+	measure 'Total por Estádio' =
+			
+			CALCULATE(
+				COUNTA('Jogos'[estadio]),
+				FILTER(
+					ALLSELECTED('Jogos'[Data]),
+					ISONORAFTER('Jogos'[Data], MAX('Jogos'[Data]), DESC)
+				)
+			)
+		formatString: 0
+		lineageTag: 58266bd1-530f-4fde-809d-63a15a23932f
+
+	column id_jogo
+		dataType: int64
+		formatString: 0
+		lineageTag: a9025312-9bbd-4723-9572-d5ecfb2c9284
+		summarizeBy: none
+		sourceColumn: id_jogo
+
+		annotation SummarizationSetBy = User
+
+	column gols_flu
+		dataType: int64
+		formatString: 0
+		lineageTag: 4eaa688a-9987-4bfc-8ede-97b9ba7af1cd
+		summarizeBy: sum
+		sourceColumn: gols_flu
+
+		annotation SummarizationSetBy = Automatic
+
+	column gols_adv
+		dataType: int64
+		formatString: 0
+		lineageTag: 24b58a0e-c61a-4ba6-89a9-c22b2f739e0a
+		summarizeBy: sum
+		sourceColumn: gols_adv
+
+		annotation SummarizationSetBy = Automatic
+
+	column adversario
+		dataType: string
+		lineageTag: 3e8ba8cf-5b26-404a-8d0c-073bb3b7060f
+		summarizeBy: none
+		sourceColumn: adversario
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_adv
+		dataType: int64
+		formatString: 0
+		lineageTag: 7969698a-aac0-448a-8549-28ede3c14691
+		summarizeBy: sum
+		sourceColumn: id_adv
+
+		annotation SummarizationSetBy = Automatic
+
+	column local_adv
+		dataType: string
+		lineageTag: 37e130b7-635e-46fd-98a1-b3a335e80624
+		summarizeBy: none
+		sourceColumn: local_adv
+
+		annotation SummarizationSetBy = Automatic
+
+	column estadio
+		dataType: string
+		lineageTag: d5bb9f64-5a79-4797-9a27-4925b6afbb87
+		summarizeBy: none
+		sourceColumn: estadio
+
+		annotation SummarizationSetBy = Automatic
+
+	column local_estadio
+		dataType: string
+		lineageTag: e76eb697-8230-4f99-837d-313d16081ded
+		summarizeBy: none
+		sourceColumn: local_estadio
+
+		annotation SummarizationSetBy = Automatic
+
+	column data
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: e8f8edeb-e85a-4c3f-97aa-eb14c3037561
+		summarizeBy: none
+		sourceColumn: data
+
+		variation Variation
+			isDefault
+			relationship: af36d2b5-e9dd-431d-84db-86b2b262b25e
+			defaultHierarchy: LocalDateTable_05245f97-3940-420f-8889-fda64d4fb6bd.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column campeonato
+		dataType: string
+		lineageTag: 5c88b29c-c06b-4108-ba54-fe2c7495f1bb
+		summarizeBy: none
+		sourceColumn: campeonato
+
+		annotation SummarizationSetBy = Automatic
+
+	column arbitro
+		dataType: string
+		lineageTag: 0967d79a-5db4-46e8-9182-121f4ef49adb
+		summarizeBy: none
+		sourceColumn: arbitro
+
+		annotation SummarizationSetBy = Automatic
+
+	column publico
+		dataType: int64
+		formatString: 0
+		lineageTag: c3835469-87e7-48be-a73e-0aef057fe687
+		summarizeBy: none
+		sourceColumn: publico
+
+		annotation SummarizationSetBy = User
+
+	column Resultado = ```
+			
+			SWITCH(
+			    TRUE(),
+			    Jogos[gols_flu] > Jogos[gols_adv], "V",
+			    Jogos[gols_flu] < Jogos[gols_adv], "D",
+			    "E"
+			)
+			
+			```
+		lineageTag: a4a23c0c-2ebf-4517-b454-de89834a3b20
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Resultado Exato' =
+			
+			Jogos[gols_flu] & " x " & Jogos[gols_adv]
+		lineageTag: 1d3c103a-829d-4920-a34f-bbb729a8768c
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Dia da Semana' =
+			
+			FORMAT('Jogos'[Data], "DDDD")
+		lineageTag: 195f93a9-9eb8-4436-a55c-cc6d76f88126
+		summarizeBy: none
+		sortByColumn: 'Num Dia Semana'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Data Formatada' =
+			
+			FORMAT('Jogos'[Data], "dd/MM/yyyy")
+		lineageTag: acaf76b8-3bdc-46d0-a869-4d718b897982
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Num Dia Semana' =
+			
+			WEEKDAY('Jogos'[Data], 1)
+		formatString: 0
+		lineageTag: 1c97964c-bbc9-461e-8105-37747203fcdc
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Jogos = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(Web.Contents("https://docs.google.com/spreadsheets/d/1qgf1kaFvj2xq7Lq8sWT8C-a_aUbKhLPuf25QtFDOHUc/export"), null, true),
+				    Jogos_Sheet = Fonte{[Item="Jogos",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Jogos_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"id_jogo", Int64.Type}, {"gols_flu", Int64.Type}, {"x", type text}, {"gols_adv", Int64.Type}, {"adversario", type text}, {"id_adv", Int64.Type}, {"local_adv", type text}, {"estadio", type text}, {"local_estadio", type text}, {"data", Int64.Type}, {"campeonato", type text}, {"arbitro", type text}, {"publico", Int64.Type}, {"Column14", type any}, {"Column15", type any}, {"Column16", type any}, {"Column17", type any}, {"Column18", type any}, {"Column19", type any}, {"Column20", type any}, {"Column21", type any}, {"Column22", type any}, {"Column23", type any}, {"Column24", type any}, {"Column25", type any}, {"Column26", type any}, {"Column27", type any}, {"Column28", type any}, {"Column29", type any}, {"Column30", type any}, {"Column31", type any}, {"Column32", type any}, {"Column33", type any}, {"Column34", type any}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"x"}),
+				    #"Linhas em Branco Removidas" = Table.SelectRows(#"Colunas Removidas", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {"", null}))),
+				    #"Outras Colunas Removidas" = Table.SelectColumns(#"Linhas em Branco Removidas",{"id_jogo", "gols_flu", "gols_adv", "adversario", "id_adv", "local_adv", "estadio", "local_estadio", "data", "campeonato", "arbitro", "publico"}),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Outras Colunas Removidas",{{"data", type date}})
+				in
+				    #"Tipo Alterado1"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

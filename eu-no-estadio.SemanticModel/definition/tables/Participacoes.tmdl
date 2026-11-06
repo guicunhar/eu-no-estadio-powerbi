@@ -1,0 +1,67 @@
+table Participacoes
+	lineageTag: 94e1359e-61e2-495c-b1e8-b0513299fbc1
+
+	measure Participacoes =
+			
+			COUNTROWS(Participacoes)
+		formatString: 0
+		lineageTag: 2859dac0-99cb-4416-80b6-80a307b8a03a
+
+	column id_jogo
+		formatString: 0
+		lineageTag: 823dd6b1-9886-441b-9a9f-1128dd76c50a
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [id_jogo]
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_jogador
+		formatString: 0
+		lineageTag: ddcfbf39-d98e-436f-bd7b-cba3ef274707
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [id_jogador]
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo
+		lineageTag: 9358c6c2-cce5-4fcd-9333-25ab294174c5
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [tipo]
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_gol
+		formatString: 0
+		lineageTag: 93cda607-13d3-40a5-adfa-8c221f4d75ca
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [id_gol]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Participacoes = calculated
+		mode: import
+		source =
+				
+				UNION(
+				    SELECTCOLUMNS(
+				        Gols,
+				        "id_gol",Gols[id_gol],
+				        "id_jogo", Gols[id_jogo],
+				        "id_jogador", Gols[id_autor],
+				        "tipo", "Gol"
+				    ),
+				    SELECTCOLUMNS(
+				        Gols,
+				        "id_gol",Gols[id_gol],
+				        "id_jogo", Gols[id_jogo],
+				        "id_jogador", Gols[id_ass],
+				        "tipo", "Assist"
+				    )
+				)
+
+	annotation PBI_Id = 6eb898d9508a4f79813b242c753c90e5
+

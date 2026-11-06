@@ -1,0 +1,26 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Adversários","Escalações","Gols","Jogadores","Jogos","Jogos-MataMata"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Adversários
+ref table Escalações
+ref table Gols
+ref table Jogadores
+ref table Jogos
+ref table Jogos-MataMata
+ref table DateTableTemplate_d7250380-889d-40cc-9b57-9c6768096e54
+ref table LocalDateTable_05245f97-3940-420f-8889-fda64d4fb6bd
+ref table Participacoes
+
+ref cultureInfo pt-BR
+
