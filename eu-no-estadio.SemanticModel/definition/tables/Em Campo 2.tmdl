@@ -1,0 +1,26 @@
+table 'Em Campo 2'
+	lineageTag: 1dc14c89-9010-4c91-9c3c-4289739cc8bb
+
+	column id_jogo
+		formatString: 0
+		lineageTag: 76331afc-9406-4d5c-bd6d-00753515fa24
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [id_jogo]
+
+		annotation SummarizationSetBy = Automatic
+
+	column jogador
+		lineageTag: 30cb4fc4-ee91-4117-a5ff-b921cb90f53b
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [jogador]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Em Campo 2' = calculated
+		mode: import
+		source = SELECTCOLUMNS('Escalações', "id_jogo", 'Escalações'[id_jogo], "jogador", 'Escalações'[jogador])
+
+	annotation PBI_Id = 8d0926c7258f41afa2546283ec05b880
+

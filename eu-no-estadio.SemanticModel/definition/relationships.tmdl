@@ -37,3 +37,13 @@ relationship 3bfc177f-d5a7-8443-970f-830eabcdaa7f
 	fromColumn: Participacoes.id_gol
 	toColumn: Gols.id_gol
 
+relationship 18b8d218-2a9f-1423-1fc6-41a461f614d0
+	crossFilteringBehavior: bothDirections
+	fromColumn: 'Em Campo 2'.id_jogo
+	toColumn: Jogos.id_jogo
+
+relationship d3c83875-a18a-840d-db3f-ef7f7db469f8
+	crossFilteringBehavior: bothDirections
+	fromColumn: 'Em Campo 3'.id_jogo
+	toColumn: Jogos.id_jogo
+

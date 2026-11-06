@@ -2928,240 +2928,215 @@ cultureInfo pt-BR
 			          }
 			        }
 			      ]
+			    },
+			    "em_campo_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Em Campo 2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "em campo 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "campo 2": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "em_campo_2.id_jogo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Em Campo 2",
+			          "ConceptualProperty": "id_jogo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id jogo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_jogo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "em_campo_2.jogador": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Em Campo 2",
+			          "ConceptualProperty": "jogador"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jogador": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "em_campo_3": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Em Campo 3"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "em campo 3": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "campo 3": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "em_campo_3.id_jogo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Em Campo 3",
+			          "ConceptualProperty": "id_jogo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id jogo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_jogo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential jogo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "em_campo_3.jogador": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Em Campo 3",
+			          "ConceptualProperty": "jogador"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jogador": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
-			    "jogo_data_mê_has_jogo_data_dia": {
-			      "Binding": {
-			        "ConceptualEntity": "Jogos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "jogo.data.mê": {
-			          "Target": {
-			            "Entity": "jogo.data.mê"
-			          }
-			        },
-			        "jogo.data.dia": {
-			          "Target": {
-			            "Entity": "jogo.data.dia"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "jogo.data.mê"
-			            },
-			            "Object": {
-			              "Role": "jogo.data.dia"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mê_have_dias"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "jogo.data.dia"
-			            },
-			            "Object": {
-			              "Role": "jogo.data.mê"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dias_have_mê"
-			        },
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "jogo.data.dia"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "jogo.data.mê"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dias_are_in_mê"
-			        }
-			      ]
-			    },
-			    "jogo_data_trimestre_has_jogo_data_mê": {
-			      "Binding": {
-			        "ConceptualEntity": "Jogos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "jogo.data.trimestre": {
-			          "Target": {
-			            "Entity": "jogo.data.trimestre"
-			          }
-			        },
-			        "jogo.data.mê": {
-			          "Target": {
-			            "Entity": "jogo.data.mê"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "jogo.data.trimestre"
-			            },
-			            "Object": {
-			              "Role": "jogo.data.mê"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "trimestres_have_mê"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "jogo.data.mê"
-			            },
-			            "Object": {
-			              "Role": "jogo.data.trimestre"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mê_have_trimestres"
-			        },
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "jogo.data.mê"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "jogo.data.trimestre"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "mê_are_in_trimestres"
-			        }
-			      ]
-			    },
-			    "jogo_data_ano_has_jogo_data_trimestre": {
-			      "Binding": {
-			        "ConceptualEntity": "Jogos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "jogo.data.ano": {
-			          "Target": {
-			            "Entity": "jogo.data.ano"
-			          }
-			        },
-			        "jogo.data.trimestre": {
-			          "Target": {
-			            "Entity": "jogo.data.trimestre"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "jogo.data.ano"
-			            },
-			            "Object": {
-			              "Role": "jogo.data.trimestre"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "anos_have_trimestres"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "jogo.data.trimestre"
-			            },
-			            "Object": {
-			              "Role": "jogo.data.ano"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "trimestres_have_anos"
-			        },
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "jogo.data.trimestre"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "jogo.data.ano"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "trimestres_are_in_anos"
-			        }
-			      ]
-			    },
-			    "jogo_data_hierarquia_de_data_has_jogo_data_dia": {
-			      "Binding": {
-			        "ConceptualEntity": "Jogos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "jogo.data.hierarquia_de_data": {
-			          "Target": {
-			            "Entity": "jogo.data.hierarquia_de_data"
-			          }
-			        },
-			        "jogo.data.dia": {
-			          "Target": {
-			            "Entity": "jogo.data.dia"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "jogo.data.hierarquia_de_data"
-			            },
-			            "Object": {
-			              "Role": "jogo.data.dia"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "hierarquia_de_data_have_dias"
-			        }
-			      ]
-			    },
 			    "jogo_data_hierarquia_de_data_has_jogo_data_mê": {
 			      "Binding": {
 			        "ConceptualEntity": "Jogos"
@@ -3291,6 +3266,98 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "data_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "em_campo_3_has_jogo": {
+			      "Binding": {
+			        "ConceptualEntity": "Em Campo 3"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "em_campo_3": {
+			          "Target": {
+			            "Entity": "em_campo_3"
+			          }
+			        },
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "em_campo_3"
+			            },
+			            "Object": {
+			              "Role": "jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "em_campo_3_have_jogo"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "em_campo_3"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_em_campo_3"
+			        }
+			      ]
+			    },
+			    "em_campo_2_has_jogo": {
+			      "Binding": {
+			        "ConceptualEntity": "Em Campo 2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "em_campo_2": {
+			          "Target": {
+			            "Entity": "em_campo_2"
+			          }
+			        },
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "em_campo_2"
+			            },
+			            "Object": {
+			              "Role": "jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "em_campo_2_have_jogo"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "em_campo_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_em_campo_2"
 			        }
 			      ]
 			    },
@@ -3587,6 +3654,72 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "jogo_have_escalações"
+			        }
+			      ]
+			    },
+			    "em_campo_3_has_jogador": {
+			      "Binding": {
+			        "ConceptualEntity": "Em Campo 3"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "em_campo_3": {
+			          "Target": {
+			            "Entity": "em_campo_3"
+			          }
+			        },
+			        "em_campo_3.jogador": {
+			          "Target": {
+			            "Entity": "em_campo_3.jogador"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "em_campo_3"
+			            },
+			            "Object": {
+			              "Role": "em_campo_3.jogador"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "em_campo_3_have_jogadors"
+			        }
+			      ]
+			    },
+			    "em_campo_2_has_jogador": {
+			      "Binding": {
+			        "ConceptualEntity": "Em Campo 2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "em_campo_2": {
+			          "Target": {
+			            "Entity": "em_campo_2"
+			          }
+			        },
+			        "em_campo_2.jogador": {
+			          "Target": {
+			            "Entity": "em_campo_2.jogador"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "em_campo_2"
+			            },
+			            "Object": {
+			              "Role": "em_campo_2.jogador"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "em_campo_2_have_jogadors"
 			        }
 			      ]
 			    },
@@ -5402,6 +5535,237 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "adversários_have_adversarios"
+			        }
+			      ]
+			    },
+			    "jogo_data_hierarquia_de_data_has_jogo_data_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo.data.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "jogo.data.hierarquia_de_data"
+			          }
+			        },
+			        "jogo.data.dia": {
+			          "Target": {
+			            "Entity": "jogo.data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "jogo_data_ano_has_jogo_data_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo.data.ano": {
+			          "Target": {
+			            "Entity": "jogo.data.ano"
+			          }
+			        },
+			        "jogo.data.trimestre": {
+			          "Target": {
+			            "Entity": "jogo.data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.ano"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "jogo.data.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "jogo.data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "jogo_data_trimestre_has_jogo_data_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo.data.trimestre": {
+			          "Target": {
+			            "Entity": "jogo.data.trimestre"
+			          }
+			        },
+			        "jogo.data.mê": {
+			          "Target": {
+			            "Entity": "jogo.data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.mê"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "jogo.data.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "jogo.data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "jogo_data_mê_has_jogo_data_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo.data.mê": {
+			          "Target": {
+			            "Entity": "jogo.data.mê"
+			          }
+			        },
+			        "jogo.data.dia": {
+			          "Target": {
+			            "Entity": "jogo.data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.mê"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo.data.dia"
+			            },
+			            "Object": {
+			              "Role": "jogo.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "jogo.data.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "jogo.data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
 			        }
 			      ]
 			    }
